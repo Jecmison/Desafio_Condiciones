@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Desafío Condiciones</title>
+</head>
+
+<body>
+
+    <section class="ejercicio1">
+        <div class="imagenborde">
+            <h1>Ejercicio 1</h1>
+            <p><strong>Presione la imagen</strong></p>
+            <img id="img0" src="./assets/img/kimetsu.jpg" alt="Imagen del team kimetsu">
+        </div>
+    </section>
+
+    <section class="ejercicio2">
+        <h2>Ejercicio 2</h2>
+        <div class="container">
+            <div class="sticker">
+                <figure>
+                    <img src="./assets/img/tanjiro.jpg" alt="sticker de tanjiro">
+                </figure>
+                <input class="input is-primary" type="number" min="0" max="10" value="0" id="kimetsu-1">
+            </div>
+            <div class="sticker">
+                <figure>
+                    <img src="./assets/img/nezuko.jpg" alt="sticker de nezuko">
+                </figure>
+                <input class="input is-primary" type="number" min="0" max="10" value="0" id="kimetsu-2">
+            </div>
+            <div class="sticker">
+                <figure>
+                    <img src="./assets/img/zenitsu.jpg" alt="sticker de zenitsu">
+                </figure>
+                <input class="input is-primary" type="number" min="0" max="10" value="0" id="kimetsu-3">
+            </div>
+        </div>
+        <div class="verif">
+            <button class="button is-primary" id="btn" onclick="SumadorSticker()">Verificar</button>
+            <p id="verif"></p>
+        </div>
+    </section>
+
+    <section class="ejercicio3">
+        <h2>Ejercicio 3</h2>
+        <div class="password">
+            <h1>Ingresa el password:</h1>
+
+            <select name="numero" id="caja1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+
+            <select name="numero" id="caja2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+
+            <select name="numero" id="caja3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+
+            <div class="verif">
+                <button class="button is-primary output" id="pass-btn" onclick="tuContraseña()">Ingresar</button>
+                <p id="verif-passw"></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>|
